@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(172, 194, 186);
+    padding: 20px;
+    margin: 0 5%;
+}
+
+form {
+    background-color: rgb(245, 250, 215);
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    width: 600px;
+}
+
+#newTask {
+    width: 80%;
+    border: 1px solid rgb(84, 138, 115);
+    border-radius: 4px;
+    background-color: rgb(238, 253, 247);
+    padding: 5px;
+    margin: 0 5px;
+}
+
+#submit {
+    background-color: rgb(172, 194, 186);
+    border-radius: 4px;
+    border: 1px solid rgb(84, 138, 115);
+    padding: 5px 10px;
+    width: 94%;
+    margin: 0 3%;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(135, 192, 171);
+}
+
+#removeAll {
+    float: right;
+    background-color: rgb(245, 250, 215);
+    padding: 7px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#removeAll:hover {
+    background-color: rgb(135, 192, 171);
+}
+
+div {
+    clear: both;
+}
+
+div p {
+    background-color: rgb(238, 253, 247);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+div button {
+    float: right;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(172, 194, 186);
+    cursor: pointer;
+}
+
+
+div button:hover {
+    background-color: rgb(124, 184, 164);
+}
+
+input[type='checkbox'] {
+    accent-color: black;
+}

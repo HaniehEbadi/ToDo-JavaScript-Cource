@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <script src="myscript.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body onload="onLoadPage()">
+    <h1>Todo</h1>
+
+    <form onsubmit="submitForm(event)">
+        <label for="newTask">Enter your task:</label>
+        <input type="text" id="newTask" name="newTask"><br><br>
+        <input type="submit" id="submit" value="submit">
+        <p id="demo" style="color: red;"> </p>
+    </form>
+
+    <button onclick="removeAll()" id="removeAll">Remove all</button><br><br>
+    <div id="myDiv"></div>
+    <hr>
+    <div id="checkedItems"></div>
+</body>
+</html>
